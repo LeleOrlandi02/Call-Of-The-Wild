@@ -17,7 +17,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))  // Cambia "Space" con il tasto che vuoi
         {
-            animator.SetTrigger("Attack");  // Attiva l'animazione
+            animator.SetTrigger("attack");  // Attiva l'animazione
         }
     }
 }
