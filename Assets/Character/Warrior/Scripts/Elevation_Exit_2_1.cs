@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Elevation_Entry : MonoBehaviour
+public class Elevation_Exit_2_1 : MonoBehaviour
 {
-
     public Collider2D[] mountainColliders;
     public Collider2D[] boundaryColliders;
 
@@ -16,12 +15,12 @@ public class Elevation_Entry : MonoBehaviour
 
             foreach (Collider2D mountain in mountainColliders)
             {
-                mountain.enabled = false;
+                mountain.enabled = true;
             }
 
             foreach (Collider2D boundary in boundaryColliders)
             {
-                boundary.enabled = true;
+                boundary.enabled = false;
             }
 
             collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 15;
