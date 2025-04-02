@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Animated_Tree_0
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  - {fileID: -1633280798, guid: a8fef94207123364cab9f60b6a0d6111, type: 3}
+  - {fileID: -1533827052, guid: a8fef94207123364cab9f60b6a0d6111, type: 3}
+  - {fileID: -1959805531, guid: a8fef94207123364cab9f60b6a0d6111, type: 3}
+  - {fileID: -1061006753, guid: a8fef94207123364cab9f60b6a0d6111, type: 3}
+  - {fileID: -1633280798, guid: a8fef94207123364cab9f60b6a0d6111, type: 3}
+  m_MinSpeed: 3
+  m_MaxSpeed: 3
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
