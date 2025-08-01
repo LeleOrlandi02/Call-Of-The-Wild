@@ -6,7 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Radura Iniziale.unity
+    guid: 82062486a0cb93740ad9fe02e06b8969
+  - enabled: 1
+    path: Assets/Scenes/Spiaggia.unity
+    guid: c8f0ae5380aa3ca428661f571eb0e94f
+  - enabled: 1
+    path: Assets/Scenes/Territorio del Castello.unity
+    guid: 09c9dfc3e876e7f47b223091b35a1313
+  - enabled: 1
+    path: Assets/Scenes/Montagne.unity
+    guid: d7601c283559f439a998787e970555ae
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5c97b8e1cb773874691c1872446967f8, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3a3ff2ddf601d4e3a9e00993acc3bdb8, type: 2}
