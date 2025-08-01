@@ -5,23 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class CastleLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public void OnTriggerEnter(Collider other)
+    public string SceneToLoad;
+    public Animator fadeAnim;
+    public float fadeTime = .5f;
+
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "LevelExit")
+        if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(1);
+            fadeAnim.Play("FadeToBlack");
+            StartCoroutine(DelayFade());
+
         }
+    }
+
+    IEnumerator DelayFade()
+    {
+        yield return new WaitForSeconds(fadeTime);
+        SceneManager.LoadScene(SceneToLoad);
     }
 }
