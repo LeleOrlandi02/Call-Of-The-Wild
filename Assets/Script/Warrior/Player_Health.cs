@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class Player_Health : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealt;
 
     public SpriteRenderer playerSr;
-    public NewBehaviourScript playerMovement;
+    public Player_Movement playerMovement;
 
     public void ChangeHealth(int amount)
     {

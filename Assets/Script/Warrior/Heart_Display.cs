@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HeartDisplay : MonoBehaviour
+public class Heart_Display : MonoBehaviour
 {
     public int health;
     public int maxHealth;
@@ -12,7 +12,7 @@ public class HeartDisplay : MonoBehaviour
     public Sprite fullHeart;
     public Image[] hearts;
 
-    public PlayerHealth playerHealth;
+    public Player_Health playerHealth;
 
     // Start is called before the first frame update
     void Start()

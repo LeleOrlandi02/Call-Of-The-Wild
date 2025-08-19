@@ -4,11 +4,21 @@ using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Player_Movement : MonoBehaviour
 {
     public float speed = 5;
     public Rigidbody2D rb;
     public Animator anim;
+
+    public Player_Attack player_Attack;
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Slash"))
+        {
+            player_Attack.Attack();
+        }
+    }
 
     // Update is called 50x per frame
     void FixedUpdate()

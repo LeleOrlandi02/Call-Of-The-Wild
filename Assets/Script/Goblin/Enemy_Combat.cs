@@ -13,7 +13,7 @@ public class Enemy_Combat : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
+            collision.gameObject.GetComponent<Player_Health>().ChangeHealth(-damage);
         }
     }
 
@@ -24,7 +24,7 @@ public class Enemy_Combat : MonoBehaviour
 
         if(hits.Length > 0)
         {
-            hits[0].GetComponent<PlayerHealth>().ChangeHealth(-damage);
+            hits[0].GetComponent<Player_Health>().ChangeHealth(-damage);
         }
     }
 }
