@@ -5,25 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class CastleLoader : MonoBehaviour
 {
-
-
     public string SceneToLoad;
-    public Animator fadeAnim;
-    public float fadeTime = .5f;
+    public Vector2 newPlayerPosition;
+    public int newSortingOrder = 5;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            fadeAnim.Play("FadeToBlack");
-            StartCoroutine(DelayFade());
-
+            SceneStartFader.Instance.DoFadeAndLoadScene(SceneToLoad, newPlayerPosition, newSortingOrder);
         }
-    }
-
-    IEnumerator DelayFade()
-    {
-        yield return new WaitForSeconds(fadeTime);
-        SceneManager.LoadScene(SceneToLoad);
     }
 }
