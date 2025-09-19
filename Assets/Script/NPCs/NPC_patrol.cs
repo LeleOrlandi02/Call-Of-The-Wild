@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class NPC_patrol : MonoBehaviour
 {
     public Vector2[] patrolPoints;
 
