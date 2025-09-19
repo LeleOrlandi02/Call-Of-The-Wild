@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761bb1e088b32fe4c88f1c41aad52ea1, type: 3}
+  m_Name: Start DIalogue
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: Ow, yo are finally awake !
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: 'You have slept a lot on this sand, I almost tought you were dead! '
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: But no time for small talk, I am Bob, the king's personal Monk
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: You must hurry, our King needs you
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: Hurry ! Go North in the King's Domain
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: You will find the first Knight just outside the castle
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: Help us tiny Knight, you are our only hope!
+  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+    text: (This sentence reminds me something .... I'm not sure though)
