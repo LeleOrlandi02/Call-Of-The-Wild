@@ -27,7 +27,7 @@ public class Player_Attack : MonoBehaviour
 
     public void Attack()
     {
-        if(timer <= 0)
+        if (timer <= 0)
         {
             anim.SetBool("isAttacking", true);
             timer = cooldown;

@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player_Movement : MonoBehaviour
 {
@@ -10,27 +7,27 @@ public class Player_Movement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
-    public Player_Attack player_Attack;
+    private Vector2 moveInput;
 
-    private void Update()
+    // Questa funzione è ora PUBBLICA e viene chiamata
+    // direttamente dal componente Player Input.
+    public void OnMove(InputAction.CallbackContext context)
     {
-        if (Input.GetButtonDown("Slash"))
-        {
-            player_Attack.Attack();
-        }
+        moveInput = context.ReadValue<Vector2>();
     }
 
-    // Update is called 50x per frame
+    // La tua logica di movimento rimane identica.
     void FixedUpdate()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = moveInput.x;
+        float vertical = moveInput.y;
 
-        if (horizontal > 0 && transform.localScale.x < 0 ||
-                horizontal < 0 && transform.localScale.x > 0)
+        if ((horizontal > 0 && transform.localScale.x < 0) ||
+            (horizontal < 0 && transform.localScale.x > 0))
         {
             Flip();
         }
+
         anim.SetFloat("horizontal", Mathf.Abs(horizontal));
         anim.SetFloat("vertical", Mathf.Abs(vertical));
 

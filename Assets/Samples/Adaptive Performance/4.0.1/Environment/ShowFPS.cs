@@ -27,6 +27,11 @@ public class ShowFPS : MonoBehaviour
         frameAverage = 1 / perfStatus.FrameTiming.AverageFrameTime;
         CurrentFPS.text = frameAverage.ToString("F2");
         TargetFPS.text = Application.targetFrameRate.ToString();
-        RefreshRate.text = Screen.currentResolution.refreshRate.ToString();
+
+        var rr = Screen.currentResolution.refreshRateRatio;
+        float refreshRate = 0f;
+        if (rr.denominator != 0)
+            refreshRate = (float)rr.numerator / rr.denominator;
+        RefreshRate.text = Mathf.RoundToInt(refreshRate).ToString();
     }
 }
