@@ -43,4 +43,25 @@ public class GameManager : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
+    public GameObject victoryPanel;
+    public GameObject gameOverPanel;
+
+    public void ShowVictoryScreen()
+    {
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(true); // Mostra il pannello di vittoria
+            Time.timeScale = 0f;          // Mette in pausa il gioco
+        }
+    }
+
+    public void ShowGameOverScreen()
+    {
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true); // Mostra il pannello di game over
+            Time.timeScale = 0f;           // Mette in pausa il gioco
+        }
+    }
 }

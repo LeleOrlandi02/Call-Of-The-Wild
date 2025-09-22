@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class CounterManager : MonoBehaviour
 {
@@ -46,5 +45,9 @@ public class CounterManager : MonoBehaviour
     {
         enemiesRemaining--;
         UpdateUI();
+        if (enemiesRemaining <= 0)
+        {
+            GameManager.Instance.ShowVictoryScreen();
+        }
     }
 }
