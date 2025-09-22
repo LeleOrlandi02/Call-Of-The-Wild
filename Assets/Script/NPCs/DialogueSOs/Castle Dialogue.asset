@@ -18,17 +18,17 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
     text: You skinny guy...
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
-    text: Whatevere, we need YOUR HELP !
+    text: Whatever, we need YOUR HELP !
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
     text: Listen here I have not much time, I need to take my morning coffee break
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
     text: 'Let'' s make this simple : you must beat all the goblins in the west and
       in the east'
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
-    text: When you will have destroyed their Town Halls both in the beach and in
-      the mountains you come here
+    text: When you will have destroyed them all both in the beach and in the mountains
+      you can consider yourself proud
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
-    text: Maybe this time I wont be failed
+    text: Let's hope this time I wont be failed
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
     text: ...
   - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
