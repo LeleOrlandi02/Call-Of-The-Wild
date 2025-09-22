@@ -21,9 +21,9 @@ MonoBehaviour:
     text: But no time for small talk, I am Bob, the king's personal Monk
   - speaker: {fileID: 11400000, guid: bda1380c5e87d204ba47aa1b8a5b785d, type: 2}
     text: You must hurry, our King needs you
-  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+  - speaker: {fileID: 11400000, guid: bda1380c5e87d204ba47aa1b8a5b785d, type: 2}
     text: Hurry ! Go North in the King's Domain
-  - speaker: {fileID: 11400000, guid: 349f4b559862b814d9e9ef17ba236c61, type: 2}
+  - speaker: {fileID: 11400000, guid: bda1380c5e87d204ba47aa1b8a5b785d, type: 2}
     text: You will find the first Knight just outside the castle
   - speaker: {fileID: 11400000, guid: bda1380c5e87d204ba47aa1b8a5b785d, type: 2}
     text: Help us tiny Knight, you are our only hope!
