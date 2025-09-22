@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761bb1e088b32fe4c88f1c41aad52ea1, type: 3}
+  m_Name: Castle Dialogue
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: So you are the one Bob is talking about
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: You skinny guy...
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: Whatevere, we need YOUR HELP !
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: Listen here I have not much time, I need to take my morning coffee break
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: 'Let'' s make this simple : you must beat all the goblins in the west and
+      in the east'
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: When you will have destroyed their Town Halls both in the beach and in
+      the mountains you come here
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: Maybe this time I wont be failed
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: ...
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: ...
+  - speaker: {fileID: 11400000, guid: 106337549dbb42846a1e25245308cd5c, type: 2}
+    text: YOU STILL HERE !? MOVE SOLDIER !!
